@@ -1,5 +1,6 @@
 package main
 
+// Пузырьковая сортировка
 func bubble_sort(arr []int) {
     n := len(arr)
     // Проходим по всем элементам массива
