@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func selectionSort(arr []int) {
+func selection_sort(arr []int) {
     n := len(arr)
     for i := 0; i < n-1; i++ {
         minIndex := i
